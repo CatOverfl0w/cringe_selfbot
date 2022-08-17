@@ -1,2 +1,2 @@
-# cringe_selfbot
-A Discord Selfbot that makes Discord Cringe
+# Cringe Selfbot
+To use it do pip ```install discord``` in the cmd
