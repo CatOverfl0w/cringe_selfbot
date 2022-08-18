@@ -29,7 +29,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    print("[LOGS]" + message.content)   
+    print(Fore.GREEN + "[LOGS]" + message.content)   
     if message.content == "quoi":
         await message.reply('feur')
     if message.content == "oui":
