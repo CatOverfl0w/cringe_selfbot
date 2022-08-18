@@ -29,17 +29,17 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if "quoi" in message.content:
+    if message.content == "quoi":
         await message.reply('feur')
-    if "oui" in message.content:
+    if message.content == "oui":
         await message.reply('stiti')
-    if "ouais" in message.content:
+    if message.content == "ouais":
         await message.reply("stern")
-    if "non" in message.content:
+    if message.content == "non":
         await message.reply("bril")
-    if "re" in message.content:
+    if message.content == "re":
         await message.reply("nard")
-    if "ah" in message.content:
+    if message.content == "ah":
         await message.reply("beille")
 
 # And Finally the bot is running
